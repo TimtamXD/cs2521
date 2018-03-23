@@ -1,0 +1,4 @@
+~cs2521/bin/3c -Wall -Werror -std=gnu99 -g   -c -o dracula.o dracula.c
+~cs2521/bin/3c -Wall -Werror -std=gnu99 -g -DI_AM_DRACULA -c player.c -o dracPlayer.o
+~cs2521/bin/3c -Wall -Werror -std=gnu99 -g   -c -o DracView.o DracView.c
+dryrun: couldn't compile dracula; can't proceed.
